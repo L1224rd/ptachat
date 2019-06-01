@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/chat.css" rel="stylesheet">
+  </head>
+  <body>
+    <form method="POST" action="/chat">
+      <div>
+        Nome: <input type="text" name="autor">
+      </div>
+      <div>
+         Mensagem: <input type="text" name="msg">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+    <div id="msgs"></div>
+    <script src="/js/chat.js"></script>
+  </body>
+</html>
